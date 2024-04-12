@@ -1,4 +1,6 @@
 
+- Deploy postgres
+- Change backend to postgres
 - Connect frontend to backend
 - RBAC
 - Terraform
