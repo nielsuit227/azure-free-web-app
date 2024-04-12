@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from './logo.svg';
 
 function App() {
   return (
@@ -17,6 +17,9 @@ function App() {
         >
           Learn React
         </a>
+        <button type='button' onClick={() => fetch('/api/objects')}>
+          Fetch Objects
+        </button>
       </header>
     </div>
   );
