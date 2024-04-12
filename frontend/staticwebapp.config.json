@@ -2,7 +2,7 @@
   "trailingSlash": "auto",
   "routes": [
     {
-      "route": "/api/*",
+      "route": "/",
       "allowedRoles": ["authenticated"]
     },
     {
